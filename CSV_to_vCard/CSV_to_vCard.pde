@@ -7,8 +7,6 @@ boolean fileSelected = false;
 Table data;
 String[] vcard = new String[0];
 
-int startFrom;
-
 void setup () {
   selectInput("Select a file to process:", "fileSelected");
 }
